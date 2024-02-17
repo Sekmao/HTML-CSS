@@ -1,9 +1,26 @@
 
+a:hover {color: pink}
 
-p{
+/* p{
 margin-left:20px;
 margin-right:20px;
-}
+} */
+@font-face {
+	font-family: Halogen;
+	src: url("fonts/Halogen.ttf")
+	}
+
 h1, h2, h3{
-margin-left:20px;
-}
+	font-size: 20pt;
+	font-family: Halogen, Sans-serif;
+	font-style: normal
+} 
+p, ul, ol, a{
+	font-size: 14pt;
+	font-family: Halogen, Sans-serif; 
+	font-style: normal}
+
+th, figcaption {
+	font-size: 12pt;
+	font-family: Halogen, Sans-serif; 
+	font-style: normal}

@@ -18,9 +18,12 @@ h1, h2, h3{
 p, ul, ol, a{
 	font-size: 14pt;
 	font-family: Halogen, Sans-serif; 
-	font-style: normal}
+	font-style: normal
+	}
+p {text-indent: 10mm}
 
 th, figcaption {
 	font-size: 12pt;
 	font-family: Halogen, Sans-serif; 
 	font-style: normal}
+	

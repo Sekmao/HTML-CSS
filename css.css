@@ -1,21 +1,18 @@
 
 a:hover {color: pink}
 
-/* p{
-margin-left:20px;
-margin-right:20px;
-} */
+
 @font-face {
 	font-family: Halogen;
 	src: url("fonts/Halogen.ttf")
 	}
 
-h1, h2, h3{
+.cls1{
 	font-size: 20pt;
 	font-family: Halogen, Sans-serif;
 	font-style: normal
 } 
-p, ul, ol, a{
+.cls2{
 	font-size: 14pt;
 	font-family: Halogen, Sans-serif; 
 	font-style: normal
@@ -26,4 +23,22 @@ th, figcaption {
 	font-size: 12pt;
 	font-family: Halogen, Sans-serif; 
 	font-style: normal}
+	
+.cls3{
+margin-left: 25mm;
+margin-right: 25mm;
+margin-top: 5mm;
+padding-left: 5mm;
+padding-right: 5mm;
+padding-top: 5mm;
+padding-bottom: 5mm;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-radius: 20px;
+background-color: #98FB98;
+BORDER-WIDTH: 0px 
+}
+ 
 	

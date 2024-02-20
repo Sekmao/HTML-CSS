@@ -25,20 +25,59 @@ th, figcaption {
 	font-style: normal}
 	
 .cls3{
-margin-left: 25mm;
-margin-right: 25mm;
-margin-top: 5mm;
-padding-left: 5mm;
-padding-right: 5mm;
-padding-top: 5mm;
-padding-bottom: 5mm;
-border-top-style: solid;
-border-right-style: solid;
-border-bottom-style: solid;
-border-left-style: solid;
-border-radius: 20px;
-background-color: #FFC0CB;
-BORDER-WIDTH: 0px 
+	margin-left: 25mm;
+	margin-right: 25mm;
+	margin-top: 5mm;
+	padding-left: 5mm;
+	padding-right: 5mm;
+	padding-top: 5mm;
+	padding-bottom: 5mm;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-radius: 20px;
+	background-color: #FFC0CB;
+	BORDER-WIDTH: 0px 
 }
  
+#header {
+    height: 250px;
+    background-image: url(image4.jpg);
+    background-repeat: no-repeat;
+    font-family: Halogen;
+	background-position: center;
+}
+#header h1 {    
+    font-size: 4em;
+    position: relative;
+    top: 60px;
+    left: 440px;
+    display: inline;
+	color: white
+}
+/*
+#header p {
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    display: inline
+}   */ 
+#header nav{
+    position: relative;
+    top: 140px;
+    left: 140px;
+    display: inline-block;
 	
+}
+#header a{
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+	font-size: 17pt;
+	
+	
+}

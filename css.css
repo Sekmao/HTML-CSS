@@ -1,6 +1,10 @@
 
 a:hover {color: pink}
 
+body {background-image: url(sakurabg.png);
+	 background-repeat: repeat-x repeat-y;
+	 background-size: 5%;
+	 background-attachment: fixed}
 
 @font-face {
 	font-family: Halogen;
@@ -81,3 +85,4 @@ th, figcaption {
 	
 	
 }
+
